@@ -1,0 +1,13 @@
+>>> Command invoked: ./slide.1.0/slide_1prep -C ./MultiTrans/testData/c.txt 1000 ./MultiTrans/testData/prep
+>>> Input file ./MultiTrans/testData/c.txt has been successfully pre-processed
+>>> Number of SNPs: 100
+>>> Number of removed non-polymorphic SNPs: 0
+>>> Number of polymorphic SNPs processed: 100
+>>> The following files were created.
+>>> ./MultiTrans/testData/prep.bin_convec	:	conditional distribution information
+>>> ./MultiTrans/testData/prep.bin_constd	:	conditional distribution information
+>>> ./MultiTrans/testData/prep.bin_scale	:	scaling factor information
+>>> ./MultiTrans/testData/prep.txt_nsec	:	scaling factor information
+>>> ./MultiTrans/testData/prep.txt_polySNPs	:	index of polymorphic SNPs
+>>> ./MultiTrans/testData/prep.txt_wsize	:	store window size
+>>> ./MultiTrans/testData/prep.txt_log	:	log file of this preprocess
