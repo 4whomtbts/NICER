@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.blazegraph:colt:2.1.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.blazegraph/colt/2.1.4/347da6e415852f002feab31ea36d5791b20b6321/colt-2.1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.blazegraph/colt/2.1.4/857a39661f28fd61d24bebd2495cf5abd85e0b74/colt-2.1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

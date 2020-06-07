@@ -1,12 +1,6 @@
 package Main;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
+import java.io.*;
 import java.nio.file.Files;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -130,7 +124,8 @@ public class MultiTransServlet extends HttpServlet {
 
 				os.flush();
 
-				StreamOut abc = new StreamOut(a_1.getErrorStream(), "abc");
+				/*
+				OutputStream abc = new streamout(a_1.getErrorStream(), "abc");
 				StreamOut abc2 = new StreamOut(a_1.getInputStream(), "abc");
 
 				InputStream stderr = a_1.getErrorStream();
@@ -144,11 +139,12 @@ public class MultiTransServlet extends HttpServlet {
 			    a_1.waitFor();
 				abc.interrupt();
 				abc2.interrupt();
+				*/
 			}
 			if(a_2 == null)
 			{
 				a_2 = Runtime.getRuntime().exec("python3 " + MULTITRANS_PWD + "/Pylmm_MultiTrans/pylmmGWAS_multiPhHeri.py -v --emmaSNP=" + file.getPath() + " --kfile=" + userDirString +"/K.txt" + " --emmaPHENO=" + file1.getPath() + " " + userDirString +"/VC.txt");
-
+				/*
 				InputStream stderr2 = a_2.getInputStream();
 				InputStreamReader isr2 = new InputStreamReader(stderr2);
 				BufferedReader br2 = new BufferedReader(isr2);
@@ -172,6 +168,7 @@ public class MultiTransServlet extends HttpServlet {
 			    a_2.waitFor();
 				abc.interrupt();
 				abc2.interrupt();
+				*/
 			}
 			if(a_3 == null)
 			{
@@ -184,7 +181,7 @@ public class MultiTransServlet extends HttpServlet {
 
 				fw.flush();
 				fw.close();
-
+				/*
 				InputStream stderr2 = a_3.getInputStream();
 				InputStreamReader isr2 = new InputStreamReader(stderr2);
 				BufferedReader br2 = new BufferedReader(isr2);
@@ -206,12 +203,12 @@ public class MultiTransServlet extends HttpServlet {
 			    a_3.waitFor();
 				abc.interrupt();
 				abc2.interrupt();
-
+				*/
 			}
 			if(a_4 == null)
 			{
 				a_4 = Runtime.getRuntime().exec("R CMD BATCH --args -Xpath=" + userDirString + "/X_rightdim.txt " + "-Kpath="+userDirString+"/K.txt -VCpath="+userDirString+"/VC.txt -outputPath="+ userDirString +" -- " + MULTITRANS_PWD + "/generateR.R "+userDirString+"/generateR.log");
-
+				/*
 				InputStream stderr2 = a_4.getInputStream();
 				InputStreamReader isr2 = new InputStreamReader(stderr2);
 				BufferedReader br2 = new BufferedReader(isr2);
@@ -235,11 +232,13 @@ public class MultiTransServlet extends HttpServlet {
 			    a_4.waitFor();
 				abc.interrupt();
 				abc2.interrupt();
+								*/
+
 			}
 			if(a_5 == null)
 			{
 				a_5 = Runtime.getRuntime().exec("java -jar " + MULTITRANS_PWD + "/generateC/generateC.jar 1000 "+ userDirString +"/r.txt "+ userDirString + "/ccc.txt");
-
+				/*
 				InputStream stderr2 = a_5.getInputStream();
 				InputStreamReader isr2 = new InputStreamReader(stderr2);
 				BufferedReader br2 = new BufferedReader(isr2);
@@ -261,6 +260,7 @@ public class MultiTransServlet extends HttpServlet {
 			    a_5.waitFor();
 				abc.interrupt();
 				abc2.interrupt();
+				*/
 			}
 			File f_check = new File(userDirString + "/ccc.txt");
 				try {
