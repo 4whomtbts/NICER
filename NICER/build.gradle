@@ -10,7 +10,6 @@ apply plugin: 'war'
 project.webAppDirName = 'WebContent'
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
-
 war {
     exclude 'WEB-INF/lib/**'
     exclude 'WEB-INF/classes/**'
@@ -49,8 +48,8 @@ sourceSets {
 }
 
 dependencies {
-    implementation 'javax.servlet:javax.servlet-api:3.1.0'
-    implementation 'javax.servlet.jsp:javax.servlet.jsp-api:2.3.1'
+    compile 'javax.servlet:javax.servlet-api:3.1.0'
+    compile 'javax.servlet.jsp:javax.servlet.jsp-api:2.3.1'
     // https://mvnrepository.com/artifact/javax.mail/javax.mail-api
     compile group: 'javax.mail', name: 'javax.mail-api', version: '1.6.0'
     compile group: 'com.blazegraph', name: 'colt', version: '2.1.4'

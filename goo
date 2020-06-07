@@ -1,0 +1,24 @@
+#!/bin/sh
+CURR_DIR=$(pwd)
+GRADLE_PRJ_ROOT=${CURR_DIR}/NICER
+
+echo 에코$#
+if [ "$#" -eq 0 ]; then 
+	echo 댄
+	cd ${GRADLE_PRJ_ROOT}
+	gradle clean
+	gradle build
+	cd ${CURR_DIR}
+	exit 0
+fi
+
+WAR_FILE_PATH=${CURR_DIR}/NICER/build/libs
+WAR_FILE=${WAR_FILE_PATH}/ROOT.war
+APACHE_DIR=${CURR_DIR}/apache-tomcat-9.0.17
+mv ${WAR_FILE_PATH}/NICER.war ${WAR_FILE_PATH}/ROOT.war
+mv ${WAR_FILE} ${APACHE_DIR}/webapps/
+
+sh ${APACHE_DIR}/bin/shutdown.sh
+sh ${APACHE_DIR}/bin/startup.sh
+
+
