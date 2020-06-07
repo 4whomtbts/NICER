@@ -460,3 +460,118 @@ Caused by: java.net.BindException: Address already in use
 07-Jun-2020 09:40:34.956 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
 07-Jun-2020 09:40:34.967 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 07-Jun-2020 09:40:34.972 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [5,169] milliseconds
+07-Jun-2020 20:08:27.474 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:        Apache Tomcat/9.0.17
+07-Jun-2020 20:08:27.595 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:          Mar 13 2019 15:55:27 UTC
+07-Jun-2020 20:08:27.595 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:         9.0.17.0
+07-Jun-2020 20:08:27.596 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:               Windows 10
+07-Jun-2020 20:08:27.596 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:            10.0
+07-Jun-2020 20:08:27.597 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+07-Jun-2020 20:08:27.597 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:             E:\programFiles\Java\jdk1.8.0_241\jre
+07-Jun-2020 20:08:27.597 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:           1.8.0_241-b07
+07-Jun-2020 20:08:27.598 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:            Oracle Corporation
+07-Jun-2020 20:08:27.598 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\4whom\Desktop\workspace\gaebyultemp\apache-tomcat-9.0.17
+07-Jun-2020 20:08:27.598 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\4whom\Desktop\workspace\gaebyultemp\apache-tomcat-9.0.17
+07-Jun-2020 20:08:27.600 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.util.logging.config.file=C:\Users\4whom\Desktop\workspace\gaebyultemp\apache-tomcat-9.0.17\conf\logging.properties
+07-Jun-2020 20:08:27.601 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Jun-2020 20:08:27.602 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djdk.tls.ephemeralDHKeySize=2048
+07-Jun-2020 20:08:27.609 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Jun-2020 20:08:27.611 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dignore.endorsed.dirs=
+07-Jun-2020 20:08:27.613 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.base=C:\Users\4whom\Desktop\workspace\gaebyultemp\apache-tomcat-9.0.17
+07-Jun-2020 20:08:27.616 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.home=C:\Users\4whom\Desktop\workspace\gaebyultemp\apache-tomcat-9.0.17
+07-Jun-2020 20:08:27.617 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.io.tmpdir=C:\Users\4whom\Desktop\workspace\gaebyultemp\apache-tomcat-9.0.17\temp
+07-Jun-2020 20:08:27.623 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [E:\programFiles\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\NAT Service;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Gradle\bin;C:\Program Files\Git\cmd;C:\Program Files\thrift;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\protoc-3.11.2-win64\bin;C:\Program Files\nodejs;C:\Program Files\thrift;E:\flutter\bin;E:\programFiles\Dart\dart-sdk\bin;C:\Users\4whom\AppData\Local\Android\Sdk\platform-tools;E:\programFiles\Java\jdk1.8.0_241\bin;E:\Go\bin;E:\programFiles\Apache\zookeeper\bin;E:\CMake\bin;E:\programFiles\Qt\5.14.1\msvc2017_64\bin;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\PuTTY\;C:\Users\4whom\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\4whom\AppData\Local\Programs\Python\Python37\;C:\Users\4whom\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\4whom\AppData\Local\Programs\Python\Python38-32\;C:\Users\4whom\AppData\Local\Microsoft\WindowsApps;C:\Users\4whom\AppData\Roaming\npm;E:\programFiles\WebStorm 2019.3.1\bin;;E:\Docker Toolbox;E:\programFiles\Java\jdk1.8.0_241\bin;C:\Users\4whom\go\bin;;E:\Docker Toolbox;.]
+07-Jun-2020 20:08:28.403 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-80"]을(를) 초기화합니다.
+07-Jun-2020 20:08:29.500 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["ajp-nio-8009"]을(를) 초기화합니다.
+07-Jun-2020 20:08:29.510 정보 [main] org.apache.catalina.startup.Catalina.load [3,172] 밀리초 내에 서버가 초기화되었습니다.
+07-Jun-2020 20:08:29.559 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+07-Jun-2020 20:08:29.561 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.17]
+07-Jun-2020 20:08:29.588 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\Users\4whom\Desktop\workspace\gaebyultemp\apache-tomcat-9.0.17\webapps\ROOT.war]을(를) 배치합니다.
+07-Jun-2020 20:08:38.398 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+07-Jun-2020 20:08:38.460 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\Users\4whom\Desktop\workspace\gaebyultemp\apache-tomcat-9.0.17\webapps\ROOT.war]의 배치가 [8,872] 밀리초에 완료되었습니다.
+07-Jun-2020 20:08:38.464 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\4whom\Desktop\workspace\gaebyultemp\apache-tomcat-9.0.17\webapps\docs]을(를) 배치합니다.
+07-Jun-2020 20:08:46.977 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+07-Jun-2020 20:08:46.988 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\4whom\Desktop\workspace\gaebyultemp\apache-tomcat-9.0.17\webapps\docs]에 대한 배치가 [8,524] 밀리초에 완료되었습니다.
+07-Jun-2020 20:08:46.992 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\4whom\Desktop\workspace\gaebyultemp\apache-tomcat-9.0.17\webapps\examples]을(를) 배치합니다.
+07-Jun-2020 20:08:55.532 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+07-Jun-2020 20:08:55.642 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\4whom\Desktop\workspace\gaebyultemp\apache-tomcat-9.0.17\webapps\examples]에 대한 배치가 [8,650] 밀리초에 완료되었습니다.
+07-Jun-2020 20:08:55.648 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\4whom\Desktop\workspace\gaebyultemp\apache-tomcat-9.0.17\webapps\host-manager]을(를) 배치합니다.
+07-Jun-2020 20:09:02.965 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+07-Jun-2020 20:09:02.981 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\4whom\Desktop\workspace\gaebyultemp\apache-tomcat-9.0.17\webapps\host-manager]에 대한 배치가 [7,333] 밀리초에 완료되었습니다.
+07-Jun-2020 20:09:02.984 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\4whom\Desktop\workspace\gaebyultemp\apache-tomcat-9.0.17\webapps\manager]을(를) 배치합니다.
+07-Jun-2020 20:09:10.815 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+07-Jun-2020 20:09:10.835 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\4whom\Desktop\workspace\gaebyultemp\apache-tomcat-9.0.17\webapps\manager]에 대한 배치가 [7,851] 밀리초에 완료되었습니다.
+07-Jun-2020 20:09:10.858 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-80"]을(를) 시작합니다.
+07-Jun-2020 20:09:10.882 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["ajp-nio-8009"]을(를) 시작합니다.
+07-Jun-2020 20:09:10.893 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [41,379] 밀리초 내에 시작되었습니다.
+07-Jun-2020 20:09:10.950 심각 [ajp-nio-8009-exec-8] org.apache.coyote.ajp.AjpMessage.processHeader 서명 [18245]와(과) 함께, 유효하지 않은 메시지를 받았습니다.
+07-Jun-2020 20:11:54.720 정보 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\Users\4whom\Desktop\workspace\gaebyultemp\apache-tomcat-9.0.17\webapps\NICER.war]을(를) 배치합니다.
+07-Jun-2020 20:12:14.938 정보 [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+07-Jun-2020 20:12:14.955 정보 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\Users\4whom\Desktop\workspace\gaebyultemp\apache-tomcat-9.0.17\webapps\NICER.war]의 배치가 [20,235] 밀리초에 완료되었습니다.
+07-Jun-2020 20:12:24.962 정보 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 []의 배치를 제거합니다.
+07-Jun-2020 20:12:25.495 정보 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/NICER]의 배치를 제거합니다.
+07-Jun-2020 20:12:25.543 정보 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\Users\4whom\Desktop\workspace\gaebyultemp\apache-tomcat-9.0.17\webapps\ROOT.war]을(를) 배치합니다.
+07-Jun-2020 20:12:29.334 정보 [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+07-Jun-2020 20:12:29.342 정보 [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-80"]을(를) 일시 정지 중
+07-Jun-2020 20:12:30.394 정보 [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["ajp-nio-8009"]을(를) 일시 정지 중
+07-Jun-2020 20:12:31.426 정보 [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+07-Jun-2020 20:12:31.438 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-80"]을(를) 중지시킵니다.
+07-Jun-2020 20:12:31.442 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["ajp-nio-8009"]을(를) 중지시킵니다.
+07-Jun-2020 20:12:31.446 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-80"]을(를) 소멸시킵니다.
+07-Jun-2020 20:12:31.449 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["ajp-nio-8009"]을(를) 소멸시킵니다.
+07-Jun-2020 20:12:36.209 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:        Apache Tomcat/9.0.17
+07-Jun-2020 20:12:36.221 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:          Mar 13 2019 15:55:27 UTC
+07-Jun-2020 20:12:36.222 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:         9.0.17.0
+07-Jun-2020 20:12:36.222 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:               Windows 10
+07-Jun-2020 20:12:36.223 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:            10.0
+07-Jun-2020 20:12:36.223 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+07-Jun-2020 20:12:36.224 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:             E:\programFiles\Java\jdk1.8.0_241\jre
+07-Jun-2020 20:12:36.226 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:           1.8.0_241-b07
+07-Jun-2020 20:12:36.226 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:            Oracle Corporation
+07-Jun-2020 20:12:36.226 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\4whom\Desktop\workspace\gaebyultemp\apache-tomcat-9.0.17
+07-Jun-2020 20:12:36.227 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\4whom\Desktop\workspace\gaebyultemp\apache-tomcat-9.0.17
+07-Jun-2020 20:12:36.228 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.util.logging.config.file=C:\Users\4whom\Desktop\workspace\gaebyultemp\apache-tomcat-9.0.17\conf\logging.properties
+07-Jun-2020 20:12:36.229 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Jun-2020 20:12:36.234 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djdk.tls.ephemeralDHKeySize=2048
+07-Jun-2020 20:12:36.236 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Jun-2020 20:12:36.237 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dignore.endorsed.dirs=
+07-Jun-2020 20:12:36.239 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.base=C:\Users\4whom\Desktop\workspace\gaebyultemp\apache-tomcat-9.0.17
+07-Jun-2020 20:12:36.240 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.home=C:\Users\4whom\Desktop\workspace\gaebyultemp\apache-tomcat-9.0.17
+07-Jun-2020 20:12:36.243 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.io.tmpdir=C:\Users\4whom\Desktop\workspace\gaebyultemp\apache-tomcat-9.0.17\temp
+07-Jun-2020 20:12:36.245 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [E:\programFiles\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\NAT Service;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Gradle\bin;C:\Program Files\Git\cmd;C:\Program Files\thrift;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\protoc-3.11.2-win64\bin;C:\Program Files\nodejs;C:\Program Files\thrift;E:\flutter\bin;E:\programFiles\Dart\dart-sdk\bin;C:\Users\4whom\AppData\Local\Android\Sdk\platform-tools;E:\programFiles\Java\jdk1.8.0_241\bin;E:\Go\bin;E:\programFiles\Apache\zookeeper\bin;E:\CMake\bin;E:\programFiles\Qt\5.14.1\msvc2017_64\bin;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\PuTTY\;C:\Users\4whom\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\4whom\AppData\Local\Programs\Python\Python37\;C:\Users\4whom\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\4whom\AppData\Local\Programs\Python\Python38-32\;C:\Users\4whom\AppData\Local\Microsoft\WindowsApps;C:\Users\4whom\AppData\Roaming\npm;E:\programFiles\WebStorm 2019.3.1\bin;;E:\Docker Toolbox;E:\programFiles\Java\jdk1.8.0_241\bin;C:\Users\4whom\go\bin;;E:\Docker Toolbox;.]
+07-Jun-2020 20:12:36.560 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-80"]을(를) 초기화합니다.
+07-Jun-2020 20:12:37.759 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["ajp-nio-8009"]을(를) 초기화합니다.
+07-Jun-2020 20:12:37.766 정보 [main] org.apache.catalina.startup.Catalina.load [5,316] 밀리초 내에 서버가 초기화되었습니다.
+07-Jun-2020 20:12:37.805 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+07-Jun-2020 20:12:37.807 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.17]
+07-Jun-2020 20:12:37.834 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\Users\4whom\Desktop\workspace\gaebyultemp\apache-tomcat-9.0.17\webapps\ROOT.war]을(를) 배치합니다.
+07-Jun-2020 20:12:44.703 정보 [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+07-Jun-2020 20:12:44.717 심각 [main] org.apache.catalina.core.ContainerBase.removeChild 자식 컨테이너를 소멸시키는 중 오류 발생
+ org.apache.catalina.LifecycleException: 상태 [STARTED]에 있는 구성 요소 [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]에 대해, 유효하지 않은 Lifecycle 전환이 시도되었습니다 ([before_destroy]).
+	at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:431)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:317)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:814)
+	at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:1016)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:322)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:814)
+	at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:1016)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:322)
+	at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:558)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:322)
+	at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:1063)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:322)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:708)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:669)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+07-Jun-2020 20:12:44.744 정보 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\Users\4whom\Desktop\workspace\gaebyultemp\apache-tomcat-9.0.17\webapps\ROOT.war]의 배치가 [19,201] 밀리초에 완료되었습니다.
+07-Jun-2020 20:12:47.233 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+07-Jun-2020 20:12:47.294 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [C:\Users\4whom\Desktop\workspace\gaebyultemp\apache-tomcat-9.0.17\webapps\ROOT.war]의 배치가 [9,459] 밀리초에 완료되었습니다.
+07-Jun-2020 20:12:47.298 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\4whom\Desktop\workspace\gaebyultemp\apache-tomcat-9.0.17\webapps\docs]을(를) 배치합니다.
+07-Jun-2020 20:12:55.078 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+07-Jun-2020 20:12:55.089 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\4whom\Desktop\workspace\gaebyultemp\apache-tomcat-9.0.17\webapps\docs]에 대한 배치가 [7,791] 밀리초에 완료되었습니다.
+07-Jun-2020 20:12:55.091 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [C:\Users\4whom\Desktop\workspace\gaebyultemp\apache-tomcat-9.0.17\webapps\examples]을(를) 배치합니다.

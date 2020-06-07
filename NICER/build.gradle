@@ -11,6 +11,23 @@ project.webAppDirName = 'WebContent'
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
+war {
+    exclude 'WEB-INF/lib/**'
+    exclude 'WEB-INF/classes/**'
+
+    // copy properties file in classes so that
+    // they may be loaded from classpath
+    from('resources')    {
+        include '*.properties'
+        into 'WEB-INF/classes/'
+    }
+
+    //webInf { from 'src/additionalWebInf' } // adds a file-set to the WEB-INF dir.
+    //classpath fileTree('additionalLibs') // adds a file-set to the WEB-INF/lib dir.
+    //webXml = file('src/main/webapp/WEB-INF/web.xml') // copies a file to WEB-INF/web.xml
+}
+
+
 compileJava.options.encoding = 'UTF-8'
 
 tasks.withType(JavaCompile) {
@@ -18,7 +35,9 @@ tasks.withType(JavaCompile) {
 }
 
 repositories {
+    flatDir { dirs "WebContent/WEB-INF/lib" }
     mavenCentral()
+    maven { url "http://repo.spring.io/libs-release" }
 }
 
 sourceSets {
@@ -39,6 +58,6 @@ dependencies {
     compile group: 'org.apache.commons', name: 'commons-math3', version: '3.0'
     // https://mvnrepository.com/artifact/javax.activation/activation
     compile group: 'javax.activation', name: 'activation', version: '1.1'
-
+    compile fileTree(dir: "WebContent/WEB-INF/lib", include: '*.jar')
 
 }
